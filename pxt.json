@@ -1,0 +1,17 @@
+{
+    "name": "DxxzUltrasonic",
+    "version": "1.0.0",
+    "description": "Extension for dxxztoys Ultrasonic",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
