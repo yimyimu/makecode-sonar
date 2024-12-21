@@ -1,5 +1,5 @@
 enum PingUnit {
-    //% block="微妙"
+    //% block="微秒"
     MicroSeconds,
     //% block="厘米"
     Centimeters,
@@ -14,7 +14,7 @@ enum PingUnit {
 //% blockId="sonar" block="超声波模块"
 namespace sonar {
 	//% color=#2c3e50 weight=24 icon="\uf101"
-    //% blockId=sonar_ping block="引脚 Trig %trig|Echo %echo|单位 %unit"
+    //% blockId=sonar_ping block="引脚 Trig %trig|引脚 Echo %echo|单位 %unit"
     export function ping(trig: DigitalPin, echo: DigitalPin, unit: PingUnit, maxCmDistance = 500): number {
         // send pulse
         pins.setPull(trig, PinPullMode.PullNone);
