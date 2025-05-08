@@ -1,4 +1,6 @@
-# pxt-sonar [![Build Status](https://travis-ci.org/Microsoft/pxt-sonar.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-sonar)
+# Dxxz Sonar
+
+![](./icon.png)
 
 A MakeCode package to use sonar sensors (ping) such as the HC-SR04.
 
